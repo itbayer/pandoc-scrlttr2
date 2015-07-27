@@ -155,7 +155,7 @@ $if(frombank)$\setkomavar{frombank}{$frombank$}$endif$
 $if(fromemail)$\setkomavar{fromemail}{$fromemail$}\KOMAoptions{fromemail=true}$else$\KOMAoptions{fromemail=false}$endif$
 $if(fromfax)$\setkomavar{fromfax}{$fromfax$}\KOMAoptions{fromfax=true}$else$\KOMAoptions{fromfax=false}$endif$
 $if(fromlogo)$\setkomavar{fromlogo}{$fromlogo$}\KOMAoptions{fromlogo=true}$else$\KOMAoptions{fromlogo=false}$endif$
-$if(frommobilephone)$\setkomavar{frommobilephone}{$frommobilephone$}\KOMAoptions{frommobilephone=true}$else$\KOMAoptions{frommobilephone=false}$endif$
+$if(frommobilephone)$%\setkomavar{frommobilephone}{$frommobilephone$}\KOMAoptions{frommobilephone=true}$else$%\KOMAoptions{frommobilephone=false}$endif$
 $if(fromname)$\setkomavar{fromname}{$fromname$}$endif$
 $if(fromphone)$\setkomavar{fromphone}{$fromphone$}\KOMAoptions{fromphone=true}$else$\KOMAoptions{fromphone=false}$endif$
 $if(fromurl)$\setkomavar{fromurl}{$fromurl$}\KOMAoptions{fromurl=true}$else$\KOMAoptions{fromurl=false}$endif$
